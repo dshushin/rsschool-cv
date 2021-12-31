@@ -23,7 +23,7 @@ body {
     padding: 0;
     position: relative;
     width: 750px;
-    height: 1814px;
+    /*height: 1814px;*/
     background: #FFFFFF;
 }
 
@@ -117,8 +117,7 @@ main {
 
     border: 4px solid #F1F5F9;
     border-radius: 10px;
-
-    /* Inside Auto Layout */
+    
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -190,6 +189,10 @@ main {
 
 .contacts_content {
     margin-left: 20px;
+}
+
+span {
+    font-weight: bold;
 }
 
 .footer__image {
