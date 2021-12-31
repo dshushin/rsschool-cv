@@ -117,7 +117,7 @@ main {
 
     border: 4px solid #F1F5F9;
     border-radius: 10px;
-    
+
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -183,8 +183,6 @@ main {
     width: 750px;
     background: #F8FAFC;
     text-align: center;
-    bottom: 0;
-    position: fixed;
 }
 
 .contacts_content {
