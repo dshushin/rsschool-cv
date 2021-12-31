@@ -2,9 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CV#2. HTML, CSS & Git Basics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-<h1>CV#2. HTML, CSS & Git Basics</h1>
+<div class="container">
+    <header>
+        <img class="avatar" src="assets/img/cv.jpg" alt="photo" />
+        <h1 class="title">Denis Shushin</h1>
+    </header>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#certificates" class="nav-link">Certificates</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="work_experience" id="work_experience">
+            <h4>Work Experience</h4>
+        </section>
+        <section class="education" id="education">
+            <h4>Education</h4>
+        </section>
+        <section class="certificates base_text" id="certificates">
+            <h4>Certificates</h4>
+            <a class="href" href="https://coursera.org/share/61f4865bafa4fc3515071b30ca01d98e" target="_blank">C for Everyone: Programming Fundamentals (Coursera)</a>
+        </section>
+        <section class="contacts" id="contacts">
+            <h4>Contacts</h4>
+            <a href="mailto:denis@shushin.ru">denis@shushin.ru</a><br>
+            <a href="tel:+10000000000">+1 (000) 000-0000</a>
+        </section>
+        <section class="skills">
+            <h4>Skills</h4>
+        </section>
+        <section class="lang">
+            <h4>Languages</h4>
+            <ul class="base_text">
+                <li>English - Fluent(C1)</li>
+                <li>Hebrew - Beginner</li>
+                <li>German - Intermediate</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <a class="href" href="https://github.com/dshushin" target="_blank">GitHub</a>
+        <img class="footer__image" src="assets/img/rs_school_js.svg" alt="RS School Logo"> <a class="href" href="https://rs.school/js/">RS School course 2021</a>
+    </footer>
+</div>
 </body>
 </html>
