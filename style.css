@@ -25,6 +25,7 @@ body {
     width: 750px;
     /*height: 1814px;*/
     background: #FFFFFF;
+    max-width: 960px;
 }
 
 .title {
@@ -51,6 +52,12 @@ header {
     order: 0;
     flex-grow: 0;
     margin: 0 0;
+}
+
+@media screen and (min-width: 600px) {
+    .nav {
+        flex: 2;
+    }
 }
 
 h4 {
@@ -128,7 +135,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 750px;
+    /*width: 750px;*/
+    width: 100%;
     background-color: lightgray;
     margin-top: 10px;
     height: 35px;
